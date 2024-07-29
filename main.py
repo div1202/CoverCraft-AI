@@ -22,7 +22,7 @@ def sidebar():
         st.write("")
 
         st.subheader("ABOUT:")
-        st.markdown("StoryVision is a tool that brings life to your story, "
+        st.markdown("CoverCraftAI is a tool that brings life to your story, "
                     " allowing you to upload your stories and receive quick and "
                     "artistic image for your story, all powered by StableDiffusion Model & Google Gemini's advanced technology!")
         st.write("")
@@ -91,7 +91,7 @@ def read_pdf(file):
 
 
 def main():
-    st.set_page_config(page_title = "StoryVision・Streamlit", page_icon = "📖")
+    st.set_page_config(page_title = "CoverCraftAI・Streamlit", page_icon = "📖")
     api_key_input = sidebar()
     st.markdown("<h1 style = 'margin-bottom:-3%;'>Story<span style = 'color: #53C8E6;'> Vision</span></h1>", 
                 unsafe_allow_html = True)
